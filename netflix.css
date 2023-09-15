@@ -1,0 +1,169 @@
+*{
+    margin:0;
+    padding: 0;   
+}
+.first-page{
+   background-image: url(netflix\ home\ page\ 1.jpg);
+   background-size: cover;
+   height:100vh;
+}
+.edit-page{
+    height:100vh;
+    background-color: rgba(0,0,0,0.6);
+}
+.nav-bar{
+   display:flex;
+}
+#netflix{
+    color:red;
+    font-size:3rem;
+    width:75%;
+    height:40px;
+    margin:15px;
+}
+#lang{
+    color:white;
+    font-size:1.3rem;
+    padding:5px;
+    margin:15px;
+    border: 2px solid rgba(255,255,255,0.4);
+    border-radius: 5px;
+}
+.contain{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:140px;
+}
+.para1{
+    font-size: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:140px;
+    margin-right:140px;
+    margin-top:140px;
+    margin-bottom: 10px;
+    color:white;
+    
+}
+.para2{
+    font-size:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:5px;
+    margin-left:140px;
+    margin-right:140px;
+    color:white;
+}
+.para3,#para4{
+    font-size:25px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:5px;
+    margin-left:140px;
+    margin-right:140px;
+    color:white;
+}
+#email,#button{
+    margin-top:10px;
+    width:365px;
+    height: 45px;
+    border:2px black solid;
+    background-color: rgba(0, 0, 0, 0.199);
+}
+#button{
+    margin-left:5px;
+    border:2px black solid;
+    width:365px;
+    height: 45px;
+    padding:5px;
+    background-color: red;
+}
+#empty{
+    height: 25px; 
+    background-color: rgb(0,0,0,0.9);
+}
+.second-page{
+    background-color: rgb(0,0,0);
+    height: 30rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+#img1{
+    display:flex;
+    margin-top:50px;
+}
+.container1{
+    display: inline;
+    margin-top:100px;
+    color:white;
+}
+#A{
+    font-size:55px;
+    margin-bottom: 10px;
+}
+#B{
+    font-size: 17px;;
+}
+.container2{
+   margin-top: 100px;
+}
+.FAQ{
+    background-color: rgb(0,0,0);
+    color:white;
+    max-width: 800%;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    height:400px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.Question{
+    margin: 10px;
+    font-size:20px;
+    font-weight: bold;
+    color: white;
+    font-size:20px;
+    color:rgba(255,255,255,0.7);
+}
+.faq-item{
+    border:2px solid rgba(255,255,255,0.8);
+}
+.Answer{
+    font-size:20px;
+    color:rgba(255,255,255,0.7);
+}
+.foot-panel1{
+    background-color: #0c0d0d;
+    color:white;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size:1rem;
+}
+.foot-panel2{
+    /* border:2px solid rgba(0, 0, 0, 0.199);
+    background-color: rgba(0,0,0,0.1);
+    color:white;
+    height:100vh;
+    display:flex;
+    justify-content: space-evenly; */
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    height:500px;
+}
+/* ul{
+    margin:20px;
+} */
+ul a{
+    display:block;
+    font-size: 0.8rem;
+    color:#dddddd;
+    margin-top: 25px;
+}
